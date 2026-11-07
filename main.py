@@ -18,7 +18,7 @@ def main():
     lühike_keskmine = liikuv_keskmine(hinnad, lühike_n) # Arvutab lühiajalise liikuva keskmise.
     pikk_keskmine = liikuv_keskmine(hinnad, pikk_n) # Arvutab pikaajalise liikuva keskmise.
 
-    tulemused = signaalid(lühike_keskmine, pikk_keskmine) # Arvutab signaalid lühikese ja pika liikuva keskmise põhjal.
+    tulemused = signaalid(pikk_keskmine, lühike_keskmine) # Arvutab signaalid lühikese ja pika liikuva keskmise põhjal.
 
     signaal_leitud = False # Muutuja väärtusega False, mis näitab, et signaale pole.
     for kuupäev, signaal in zip(andmed.index, tulemused): # Vaatab kuupäevi ja nendele vastavaid signaale, zip() seob andmed.index(kuupäevad) ja tulemused (signaalid) paarideks.
