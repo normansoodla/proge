@@ -34,5 +34,4 @@ Programmi tuvastatud ostu- ja müügisignaalid tulenevad vanade andmete analüü
 
 ## Projekti autorid
 
-Norman Soodla
-Karl Oskar Veidebaum
+Norman Soodla, Karl Oskar Veidebaum
