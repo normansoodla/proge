@@ -16,6 +16,9 @@ def laadi_andmed(tähis, algus, lõpp): # Defineerib funktsiooni parmeetritega t
             raise ValueError("Aktsia andmeid ei leitud.") # Tekitab vea, kui andmeid ei leitud.
 
         return andmed # Tagastab allalaaditud andmed.
+    except Exception as viga:
+        print("Andmete laadimisel tekkis viga ", viga)
+        return None
 def liikuv_keskmine(hinnad, n):     #hinnad on hindade järjend, n on paevade arv
     tulemus = []                    #järjend, kuhu salvestatakse liikuvate keskmiste väärtused
     for i in range(len(hinnad)):    #tsükkel, et luua keskmiste järjend
