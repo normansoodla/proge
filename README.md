@@ -22,11 +22,11 @@ Projekti eesmärk on õppida kasutama Pythonit finantsandmete töötlemiseks ja 
 
 ## Failide kirjeldus
 
--"README.md" - projekti tutvustus.
--"main.py" - programmi käivitamine, kasutajalt sisendi küsimine ja funktsioonide töö korraldamine.
--"funktsioonid.py" - programmis kasutatavad funktsioonid: andmete laadimine, liikuvate keskmiste arvutamine, signaalide tuvastamine ja graafiku loomine.
--"requirements.txt" - projektis kasutatavate Pythoni teekide loend.
--".gitignore" - failid ja kaustad, mida ei lisata GitHubi repositooriumisse.
+- "README.md" - projekti tutvustus.
+- "main.py" - programmi käivitamine, kasutajalt sisendi küsimine ja funktsioonide töö korraldamine.
+- "funktsioonid.py" - programmis kasutatavad funktsioonid: andmete laadimine, liikuvate keskmiste arvutamine, signaalide tuvastamine ja graafiku loomine.
+- "requirements.txt" - projektis kasutatavate Pythoni teekide loend.
+- ".gitignore" - failid ja kaustad, mida ei lisata GitHubi repositooriumisse.
 
 ## NB!
 
