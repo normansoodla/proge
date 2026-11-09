@@ -28,6 +28,24 @@ Projekti eesmärk on õppida kasutama Pythonit finantsandmete töötlemiseks ja 
 - "requirements.txt" - projektis kasutatavate Pythoni teekide loend.
 - ".gitignore" - failid ja kaustad, mida ei lisata GitHubi repositooriumisse.
 
+## Programmi käivitamisjuhend
+
+Programmi kasutamiseks peab arvutis olema paigaldatud Python.
+1. Laadi porjekt Githubist alla või klooni see enda arvutisse.
+2. Ava Powershell või muu terminal ja liigu projekti kausta.
+3. Paigalda vajalikud teegid käsuga:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+4. Käivita programm käsuga:
+
+```bash
+python main.py
+```
+5. Sisesta programmi küsitavad andmed.
+
 ## NB!
 
 Programmi tuvastatud ostu- ja müügisignaalid tulenevad vanade andmete analüüsist. Need ei taga tulevikus tootlust ega kujuta endast investeerimissoovitusi.
