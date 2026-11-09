@@ -2,7 +2,7 @@
 
 ## Projekti kirjeldus
 
-Projekti eesmärk on luua Pythonis programm, mis võimaldab analüüsida aktsiate ajaloolisi hinnaandmeid liikuvate keskmiste abil. Programm kasutab Yahoo Finance'i andmeid, et uurida aktsiate hinnaliikumisi ning neist järeldada võimalikke ostu- ja müügisignaale.
+Projekt on Pythoni programm, mis võimaldab analüüsida aktsiate ajaloolisi hinnaandmeid liikuvate keskmiste abil. Programm kasutab Yahoo Finance'i andmeid, et uurida aktsiate hinnaliikumisi ning neist järeldada võimalikke ostu- ja müügisignaale.
 
 Programmi abil saab kasutaja valida analüüsitava aktsia ja ajavahemiku ning tutvuda analüüsi tulemustega.
 
