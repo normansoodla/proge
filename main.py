@@ -21,13 +21,13 @@ def main():
     tulemused = signaalid(pikk_keskmine, lühike_keskmine) # Arvutab signaalid lühikese ja pika liikuva keskmise põhjal.
 
     signaal_leitud = False # Muutuja väärtusega False, mis näitab, et signaale pole.
-    for i in range(len(tulemused): # Käib tulemused indeksi põhjal läbi
-       kuupäev = andmed.idex[i] # Võtab vastava kuupäeva
+    for i in range(len(tulemused)): # Käib tulemused indeksi põhjal läbi
+       kuupäev = andmed.index[i] # Võtab vastava kuupäeva
        signaal = tulemused[i] # Võtab vastava signaali
-        if signaal == "buy": # Kontrollime, kas signaal on ostusignaal.
+       if signaal == "buy": # Kontrollime, kas signaal on ostusignaal.
             print(f"{kuupäev.strftime('%Y-%m-%d')}: Osta") #strftime() vormindab kuupäeva.
             signaal_leitud = True # Märgib, et kuupäev leiti.
-        elif signaal == "sell": # Kui ostusignaal polnud, kontrollime müügisignaali.
+       elif signaal == "sell": # Kui ostusignaal polnud, kontrollime müügisignaali.
             print(f"{kuupäev.strftime('%Y-%m-%d')}: Müü") #strftime() vormindab kuupäeva.
             signaal_leitud = True # Märgib, et kuupäev leiti.
 
