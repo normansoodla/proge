@@ -21,7 +21,9 @@ def main():
     tulemused = signaalid(pikk_keskmine, lühike_keskmine) # Arvutab signaalid lühikese ja pika liikuva keskmise põhjal.
 
     signaal_leitud = False # Muutuja väärtusega False, mis näitab, et signaale pole.
-    for kuupäev, signaal in zip(andmed.index, tulemused): # Vaatab kuupäevi ja nendele vastavaid signaale, zip() seob andmed.index(kuupäevad) ja tulemused (signaalid) paarideks.
+    for i in range(len(tulemused): # Käib tulemused indeksi põhjal läbi
+       kuupäev = andmed.idex[i] # Võtab vastava kuupäeva
+       signaal = tulemused[i] # Võtab vastava signaali
         if signaal == "buy": # Kontrollime, kas signaal on ostusignaal.
             print(f"{kuupäev.strftime('%Y-%m-%d')}: Osta") #strftime() vormindab kuupäeva.
             signaal_leitud = True # Märgib, et kuupäev leiti.
